@@ -1,24 +1,28 @@
 <template>
   <div>
-    <nav class="w-full h-28 text-black">
+    <nav class="w-full text-black">
       <AppContainer>
-        <div class="items-center w-full flex">
+        <div class="items-center w-full flex justify-center h-28">
           <ul
-            class="flex justify-between w-full font-medium">
+            class="flex w-full justify-between text-lg text-white">
             <li>
-              <NuxtLink to="/" class="">Home</NuxtLink>
+              <NuxtLink to="/" class="">Beranda</NuxtLink>
             </li>
             <li>
               <a href="#"
-                class="block py-2 px-3 text-gray-900 rounded">About</a>
+                class="block">Kepribadian</a>
             </li>
             <li>
               <a href="#"
-                class="block py-2 px-3 text-gray-900 rounded">Services</a>
+                class="block">Jurusan</a>
             </li>
             <li>
               <a href="#"
-                class="block py-2 px-3 text-gray-900 rounded">Contact</a>
+                class="block">Sumber</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block">Tentang</a>
             </li>
           </ul>
         </div>
